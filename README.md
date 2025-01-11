@@ -1,7 +1,7 @@
 # [Telegram] TG-VDownloader
 
 <div style="text-align: center;">
-  <img src="./img/TG_VDownloader.jpg" width=90%>
+  <img src="./assets/TG_VDownloader.jpg" width=90%>
 </div>
 
 <br>
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 4. Depois, escreva:
 ```bash
-telegram.py --api_id=xxxxx --api_hash=xxxxx --phone_number=xxxxx --channel_username=xxxxx
+main.py --api_id=xxxxx --api_hash=xxxxx --phone_number=xxxxx --channel_username=xxxxx
 ```
 
 <br>
@@ -125,19 +125,14 @@ A função principal utiliza o método iter_messages() para buscar mensagens do 
 ```plaintext
 TG_VDownloader/
 ├── src/
-│   ├── telegram.py
-│   └── requirements.txt
-├── img/
-│   ├── TG_VDownloader.jpg
+│   └── main.py
+├── assets/
+│   └── TG_VDownloader.jpg
+├── requirements.txt
 └── README.md
 ```
 
-- **`src/telegram.py`**: Contém o script principal da aplicação.
-- **`src/requirements.txt`**: Lista de dependências Python necessárias para a aplicação.
-- **`img/TG_VDownloader.jpg`**: Banner do projeto.
+- **`src/main.py`**: Contém o script principal da aplicação.
+- **`assets/TG_VDownloader.jpg`**: Banner do projeto.
+- **`requirements.txt`**: Lista de dependências Python necessárias para a aplicação.
 - **`README.md`**: Documentação do projeto.
-
-
-## Garantia
-
-Este software é fornecido "como está", sem garantias de qualquer tipo, expressas ou implícitas, incluindo, mas não se limitando a, garantias de comercialização, adequação a um propósito específico e não violação. Em nenhum caso o autor ou os detentores dos direitos autorais serão responsáveis por qualquer reivindicação, dano ou outra responsabilidade, seja em uma ação de contrato, delito ou outra forma, decorrente de, fora de ou em conexão com o software ou o uso ou outras negociações no software.
